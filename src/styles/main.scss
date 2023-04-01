@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 273px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 600px) {
+    max-width: 40%;
+  }
+}
+
