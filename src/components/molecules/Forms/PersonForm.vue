@@ -2,8 +2,8 @@
 <template>
     <Input :required="true" :label="name" type="text"  v-model="form.name"/>
     <Input :required="true" :label="document" type="number"  :maxlength="document" v-model="form.document"/>
-    <Input :required="false" :label="date" type="date"  v-model="form.birthdate"/>
-    <Input :required="false" label="Telefone" type="tel"  v-model="form.phone"/>
+    <Input :required="true" :label="date" type="date"  v-model="form.birthdate"/>
+    <Input :required="true" label="Telefone" type="tel"  v-model="form.phone"/>
 </template>
 
 <script setup>
